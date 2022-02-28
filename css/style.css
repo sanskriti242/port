@@ -1,0 +1,209 @@
+@import 'utilities.css';
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    background-color: black;
+    
+}
+.head{
+    margin-left: 25vw;
+    margin-right: 15vw;
+    font-family: 'Lora', serif;
+}
+header nav .bar a{
+    color: rgb(247, 250, 252);
+    text-decoration: none;
+    margin-right: 4rem;
+    text-transform: uppercase;
+}
+header nav .bar a:hover{
+    color: #facfd2;;
+}
+header nav{
+    padding: 2rem 0;
+}
+.btn{
+    font-family: 'Lora', serif;
+    text-transform: uppercase;
+    background: #facfd2;
+    text-decoration: none;
+    color: black;
+}
+.me .pic img{
+    width: 250px;
+    border: 3px solid #fcbabe;
+}
+.me .text{
+    color: white;
+}
+.me .text h2{
+    font-size: 1.8rem;
+    color: #facfd2;
+    margin-bottom: 1rem;
+}
+.me .text h4{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.me .text h4 span{
+    color: #facfd2;
+}
+.me .text p{
+    font-size: 1.5rem;
+}
+.me{
+    margin-top: 4rem;
+}
+.about{
+    background: black;
+    color: white;
+    font-family: 'Libre Baskerville', serif
+}
+h1{
+    padding-top: 7rem;
+    color: #fcbabe;
+    text-transform: uppercase;
+    font-size: 2rem;
+    text-align: center;
+    background: black;
+}
+.edu{
+  margin-left: 3rem;
+  margin-top: 4rem;
+  margin-bottom: 6rem;
+}
+.skills{
+    margin-top: 4rem;
+    margin-right: 3rem;
+    margin-bottom: 6rem;
+}
+.edu h2{
+    font-size: 2rem;
+    color: #fcbabe;
+}
+.skills h2{
+    font-size: 2rem;
+    color: #fcbabe;
+}
+.edu h3{
+    color: #facfd2;
+    font-size:1.5rem ;
+}
+.skills h3{
+    color: white;
+    font-size:1.5rem ;
+}
+.edu span{
+    font-size: 1.3rem;
+}
+.ach .container h2{
+    color: #fcbabe;
+    text-align: center;
+    margin-bottom: 4rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.ach{
+    background: black;
+    font-family: 'Libre Baskerville', serif;
+    padding-bottom: 6rem;
+}
+.ach .container p{
+    color: white;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
+.heading p{
+    color: #facfd2;
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
+}
+.container span{
+    color: #facfd2;
+}
+.ach .certificate .part{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 0.000005rem;
+    row-gap: 3rem;
+    margin-left: 7rem;
+}
+.certificate .part .card img{
+    width: 300px;
+    border: 2px solid #fcbabe;
+    border-radius: 5px;
+}
+.card2 img{
+    width: 320px;
+    border-radius: 140px;
+}
+.contact2{
+    font-family: 'Libre Baskerville', serif;
+    background: black;
+    color: white;
+}
+.contact2 h2{
+    text-align: center;
+}
+.contact2 span{
+    color: #fcbabe;
+}
+.contact2 .part2 .card2 img{
+    width: 80px;
+}
+section.contact2 .part2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.contact2 .part2 .card2{
+    margin-top: 5rem;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    text-align: center;
+}
+.contact2 .part2 .card2 p{
+    color: #facfd2;
+}
+.contact2 .part2 .card2 img{
+    margin-bottom: 1.5rem;
+}
+.contact2 .part2 .card2 h3{
+    font-weight: 2rem;
+    margin-bottom: 0.6rem;
+}
+.contact2 .input{
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    column-gap: 2rem;
+    margin-left: 12rem;
+    margin-right: 10rem;
+    margin-bottom: 2rem;
+    
+}
+.contact2 .input2{
+    text-align: center;
+    
+}
+.contact2 .input input{
+    padding: 0.7rem;
+    border: 3.5px solid  #facfd2 ;
+}
+.contact2 .input2 textarea{
+    padding: 0.5rem;
+    border: 3.5px solid  #facfd2 ;
+}
+.contact2 .B{
+    text-align: center;
+    padding: 3rem;
+    padding-bottom: 5rem;
+}
